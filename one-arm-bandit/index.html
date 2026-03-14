@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>放置老虎机</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ui.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="game-area">
+      <div id="game-scene"></div>
+      <div id="ui-top">
+        <div id="coins-display">金币: <span id="coins">0</span></div>
+        <button id="restart-btn" class="restart-btn">重开游戏</button>
+      </div>
+    </div>
+    <div id="shop-area">
+      <h2>商店</h2>
+      <div id="shop-items"></div>
+    </div>
+  </div>
+  <script src="js/bigIntUtils.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/deviceManager.js"></script>
+  <script src="js/upgradeSystem.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

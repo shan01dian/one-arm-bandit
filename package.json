@@ -1,0 +1,12 @@
+{
+  "name": "one-arm-bandit",
+  "version": "1.0.0",
+  "description": "放置老虎机游戏",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server one-arm-bandit --port=3000 --open=/",
+    "dev": "npx live-server one-arm-bandit --port=3000 --open=/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true
+}
